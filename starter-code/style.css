@@ -1,3 +1,90 @@
-/* This is a multi-line
-comment. Add your CSS code
-from Unit 1 - 5 below  */
+
+}
+nav{
+	background-color: #808080;
+	display:inline-block;
+}
+header{
+	text-align: center;
+}
+h1 {
+	color: rgb(2,132,130);
+}
+h2{
+	color: #ffd700;
+}
+p{
+	text-align: center;
+}
+footer{
+	font-family: 'Pacifico', cursive;
+	background-color: #808080;
+	clear:both;
+	text-align: center;
+}
+.board {
+	height: 50%; 
+	width: 50%;
+}
+.card {
+	height: 200px; 
+	width: 150px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: yellow;float:left;
+	margin: 8%;	
+}
+.navbar{
+	text-decoration: none;
+	color: white;
+	background-color: #ffbf00;
+	padding: 35px;
+	display:inline-block;
+	float:left;
+}
+a:hover{
+	background-color: #ee5f3c;
+	color:white;
+}
+.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+}
+#topleft{
+	
+	float:left;
+	margin-bottom: 200px; 
+	
+}
+#topright{
+	
+	float:right;
+	margin-bottom: 200px; 
+    
+}
+#bottomleft{
+	clear:left;
+	float:left
+}
+#bottomright{
+	clear:right;
+	float:right;
+	
+}
+#name {
+	color: #ff0000;
+}
+#socialmedia {
+	font-family: 'Lalezar', cursive;
+	clear:left;
+	text-align: center
+}
+
+
+
+
+
