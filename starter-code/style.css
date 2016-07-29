@@ -1,26 +1,32 @@
 
 }
 nav{
-	background-color: #808080;
+	background-color: yellow;
 	display:inline-block;
 }
 header{
 	text-align: center;
 }
 h1 {
-	color: rgb(2,132,130);
+	font-family: 'Overlock SC', cursive;
+	color: rgba(116, 12, 186, .8);
 }
 h2{
-	color: #ffd700;
+	font-family: 'Overlock SC', cursive;
+	color: rgba(116, 12, 186, .7)
 }
 p{
-	text-align: center;
+	font-family: 'Kite One', sans-serif;
+	text-align: left;
+	font-size: 125%;
+	color: rgba(116, 12, 186, .5)
 }
 footer{
 	font-family: 'Pacifico', cursive;
-	background-color: #808080;
+	background-color: orange;
 	clear:both;
 	text-align: center;
+	text-decoration: none;
 }
 .board {
 	height: 50%; 
@@ -31,10 +37,10 @@ footer{
 	width: 150px;
 	border: 1px solid black;
 	border-radius: 10px;
-	background-color: yellow;float:left;
 	margin: 8%;	
 }
 .navbar{
+	font-family: 'Overlock SC', cursive;
 	text-decoration: none;
 	color: white;
 	background-color: #ffbf00;
@@ -43,8 +49,8 @@ footer{
 	float:left;
 }
 a:hover{
-	background-color: #ee5f3c;
-	color:white;
+	background-color: purple;
+	color:#C7E867;
 }
 .clearfix:after {
         visibility: hidden;
@@ -54,16 +60,25 @@ a:hover{
         height: 0;
         font-size: 0;
 }
+div.image {
+    content:url(https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-delirium-1_large.png?v=1462124739);
+    height: 200px; 
+	width: 150px;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 8%;	
+	float: left
+}​
 #topleft{
 	
 	float:left;
-	margin-bottom: 200px; 
+	margin-bottom: 100px; 
 	
 }
 #topright{
 	
-	float:right;
-	margin-bottom: 200px; 
+	float:left;
+	margin-bottom: 100px; 
     
 }
 #bottomleft{
@@ -72,16 +87,22 @@ a:hover{
 }
 #bottomright{
 	clear:right;
-	float:right;
+	float:left;
 	
 }
 #name {
-	color: #ff0000;
+	color: purple;
 }
 #socialmedia {
-	font-family: 'Lalezar', cursive;
-	clear:left;
-	text-align: center
+	text-decoration: none;
+	font-family: 'Overlock SC', cursive;
+	clear:both;
+	text-align: center;
+	color:#C7E867;
+}
+
+#bottomline {
+	color: white;
 }
 
 

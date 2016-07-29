@@ -1,15 +1,19 @@
-<!DOCtype html>
+ <!DOCtype html>
 <html>
 	<head>
-		<title>Memory Game</title>
+		<title>Memory Game</title>		
 		<script src="main.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<img url="http://graphicdesignjunction.com/wp-content/uploads/2012/10/background+pattern+design+3.jpg">
+		<link href="https://fonts.googleapis.com/css?family=Overlock+SC" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Kite+One" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lalezar" rel="stylesheet">		
 		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 	</head>
-	<body>
+	<body bgcolor= "#(B7BCBD)">
+
 		<nav class="clearfix">
 			<a class="navbar" href="#">Instructions</a>
 			<a class="navbar" href="#">Game</a>
@@ -17,16 +21,17 @@
 		<hr>
 		<h1>Memory Game</h1>
 		<h2>Instructions</h2>				
-		<p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.</p>	
-  	    <div class="board" class="clearfix">
+		<p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. <span id="bottomline">The object of the game is to turn over pairs of matching cards.</span></p>	
+  	    <div class="board" class="clearfix" id="game-board">
 
- 			<div class="card" id="topleft"></div>
- 			<div class="card" id="topright"></div>		
- 			<div class="card" id="bottomleft"></div>
- 			<div class="card" id="bottomright"></div> 				
+ 			<div style="background:yourimage.jpg no-repeat;height:imageheight px;width:imagewidth px" class="image" class="card"  id="topleft"></div>
+ 			<div class="image" class="card" id="topright"></div>		
+ 			<div class="image" class="card" id="bottomleft"></div>
+ 			<div class="image" class="card" id="bottomright"></div> 				
 		</div>
 
 		<div id="socialmedia" class="clearfix">Add me on <a href="https://twitter.com/PauloDiGunnio"> twitter</a> or <a href="h:ttps://www.facebook.com/paul.bryan.503">facebook</a></divs>
+			<hr>
 
 		<footer>Created with &#9825; by <span id="name">paulo</span></footer>
 	</body>	
